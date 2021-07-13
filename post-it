@@ -1,0 +1,66 @@
+> Para criar um novo projeto com typescript
+expo init nome_pasta
+
+
+> Startar o projeto
+expo start
+
+> install da API vector-icons
+expo install @expo/vector-icons
+
+> install da API google-fonts da fonte Jost 
+expo install expo-font @expo-google-fonts/jost
+
+> install
+expo install expo-app-loading
+
+> react navigation
+npm install @react-navigation/native
+
+> para lidar com navegação verificar a documentação do react navigation
+expo install react-native-gesture-handler react-native-reanimated react-native-screens react-native-safe-area-context @react-native-community/masked-view
+
+> instalar o Stack tipo de navegação
+npm install @react-navigation/stack
+
+> para iphone que tem a bordar de cima onde fica a camera
+npm i react-native-iphone-x-helper --save
+
+> para lidar com requisições
+npm install axios
+
+> para criar um API fake, o -g é de global, porque vai instalar
+> de na máquina o pacote e não no projeto
+npm install -g json-server
+
+> para rodar a API localmente
+json-server src/services/server.json --host 192.168.0.4 --port 3333
+
+> para rodar a API localmente usando delay em 700 milesegundos
+json-server src/services/server.json --host 192.168.0.5 --port 3333 --delay 700
+
+> para lidar com svg
+expo install react-native-svg
+
+> LottieFiles animação de loading
+https://lottiefiles.com/
+
+> para instalar o lottie
+expo install
+
+> instalar o async storage
+expo install @react-native-async-storage/async-storage
+
+> instalar o date time picker
+expo install @react-native-community/datetimepicker
+
+> date=fns é uma lib para verificar se a data já passou da data atual
+https://date-fns.org/
+documentação https://date-fns.org/docs/Getting-Started
+
+instalar yarn add date-fns
+
+> react navigation
+
+> notification
+expo install expo-notifications
