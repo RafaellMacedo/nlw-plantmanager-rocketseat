@@ -41,7 +41,6 @@ export function MyPlants(){
                     } catch (error) {
                         Alert.alert('Não foi possível remover! 😢');
                     }
-                    // parou a aula em 27:02
                 }
             }
         ])
